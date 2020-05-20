@@ -21,15 +21,15 @@ My first idea was to analyze how this stock behaved in another pandemic.The clos
 
 * [Historical Data](https://mx.investing.com/commodities/crude-oil-historical-data)
 
-I got 90% of my data from investing.com, is a website where you can watch all the stock marcket in real time, it has the data from commodities to criptocurrency.
-All data were clean but i wanted just the prices columns and dates to start running and testing the time-series regresions.
+I got 90% of my data from investing.com, is a website where you can analyse all the stock marcket in real time, it has data from commodities to criptocurrency.
+All data was clean but i only wanted the prices of the stock troughout the years to start running and testing the time-series regresions.
 
 
 ##
-## AutoRegressive model (Ar)
+## AutoRegressive model (AR)
 
 An autoregressive (AR) model predicts future behavior based on past behavior. It’s used for forecasting when there is some correlation between values in a time series and the values that precede and succeed them.
-This was my first model with very good results, with an error fo 10.43 but the last prediction had a 34.58 point of difference with the real one.
+This was my first model with very good results, with an error of 10.43 but the last prediction had a 34.58 point of difference with the real one.
 
 ![AR](https://github.com/DavidCis/Final-project/tree/master/Images/ar.png)
 
@@ -76,7 +76,7 @@ Pandemics from 2002 to 2020 with oil prices at the start and at the end of the p
 ![Pandemics](https://github.com/DavidCis/Final-project/tree/master/Images/price_pandemics.png)
 
 
-This is how price behaved during H1N1.
+This is how oil price behaved during H1N1.
 
 
 ![H1N1](https://github.com/DavidCis/Final-project/tree/master/Images/h1n1.png)
