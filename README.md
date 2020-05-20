@@ -9,7 +9,7 @@
 
 ## Overview
 
-My goal with this project was using supervised machine learning to predcit the price of the crude oil WTI (West Texas Intermediate) this stock is used to stablish the oil price.
+My goal with this project was to make a predcition of the price of the crude oil WTI (West Texas Intermediate) this stock is used to stablish the oil price using supervised machine learning.
 
 I set this goal because of the uncertainty of the stock market with the COVID-19, a virus that has stopped the world economy. On April 24th we saw the biggest fall of this stock since 2009.The stock went down -309.97%. The stock market opened that day with a price of 17.73 usd and at the end of the day it was -37.63 usd.
 
