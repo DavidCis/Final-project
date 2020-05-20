@@ -34,6 +34,5 @@ class Data:
         return '0'        
 
 
-
 data = Data(API_KEY,PROJECT_TOKEN)
-print(data.get_date_price('15.05.2020')['close_price'])
+print(data.get_today_price())
