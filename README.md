@@ -31,7 +31,7 @@ All data were clean but i wanted just the prices columns and dates to start runn
 An autoregressive (AR) model predicts future behavior based on past behavior. It’s used for forecasting when there is some correlation between values in a time series and the values that precede and succeed them.
 This was my first model with very good results, with an error fo 10.43 but the last prediction had a 34.58 point of difference with the real one.
 
-!(https://github.com/DavidCis/Final-project/tree/master/ar.png)
+![AR](https://github.com/DavidCis/Final-project/tree/master/Images/ar.png)
 
 
 ##
@@ -40,17 +40,17 @@ This was my first model with very good results, with an error fo 10.43 but the l
 Then i used SARIMAX because the pandemics are seasonal and the stocks are volatile. This model is useful in cases we suspect that residuals may exhibit a seasonal trend or pattern.
 But the results were similar to AR.
 
-!(https://github.com/DavidCis/Final-project/tree/master/sarimax.png)
+![SARIMAX](https://github.com/DavidCis/Final-project/tree/master/Images/sarimax.png)
 
 ##
 ## Prophet
 
 Prophet is a procedure for forecasting time series data based on an additive model where non-linear trends are fit with yearly, weekly, and daily seasonality, plus holiday effects. It works best with time series that have strong seasonal effects and several seasons of historical data. Prophet is robust to missing data and shifts in the trend, and typically handles outliers well.
-Prophet could had been a very good option but my data is monthly, so i couldnt use prophet as it`s best.
+Prophet could had been a very good option but my data is monthly, so i couldnt use prophet as its best.
 
 Green dots are the real data, the blue line is prophet precdcitions and the soft blue around it is the area of error.
 
-!(https://github.com/DavidCis/Final-project/tree/master/prophet.png)
+![Prophet](https://github.com/DavidCis/Final-project/tree/master/Images/prophet.png)
 
 
 ##
@@ -60,11 +60,11 @@ Gradient boosting regressors are a type of inductively generated tree ensemble m
 With this model i used HyperOpt to fit the model with the best hyper-parameters for my data.
 The MSE (Mean Squared Error) of this model is 6.9 and the train and test r2 are: 0.999904 , 0.9912.
 
-!(https://github.com/DavidCis/Final-project/tree/master/tail_gbr.png)
+![gbr1](https://github.com/DavidCis/Final-project/tree/master/Images/tail_gbr.png)
 
 The mean error difference is close to 0.
 
-!(https://github.com/DavidCis/Final-project/tree/master/describe_gbr.png)
+![gbr2](https://github.com/DavidCis/Final-project/tree/master//Images/describe_gbr.png)
 
 
 ##
@@ -73,25 +73,25 @@ The mean error difference is close to 0.
 Pandemics from 2002 to 2020 with oil prices at the start and at the end of the pandemic.
 
 
-!(https://github.com/DavidCis/Final-project/tree/master/price_pandemics.png)
+![Pandemics](https://github.com/DavidCis/Final-project/tree/master/Images/price_pandemics.png)
 
 
 This is how price behaved during H1N1.
 
 
-!(https://github.com/DavidCis/Final-project/tree/master/h1n1.png)
+![H1N1](https://github.com/DavidCis/Final-project/tree/master/Images/h1n1.png)
 
 
 Acurracy of my machine learning model. (Predicted data vs real data)
 
 
-!(https://github.com/DavidCis/Final-project/tree/master/realvserror.png)
+![Error](https://github.com/DavidCis/Final-project/tree/master/Images/realvserror.png)
 
 
 This are my predictions for the price of the crude oil WTI for 2020.
 
 
-!(https://github.com/DavidCis/Final-project/tree/master/prediction2020.png)
+![Predict](https://github.com/DavidCis/Final-project/tree/master/Images/prediction2020.png)
 
 
 
