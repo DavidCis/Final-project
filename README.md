@@ -94,5 +94,7 @@ This are my predictions for the price of the crude oil WTI for 2020.
 ![Predict](https://github.com/DavidCis/Final-project/tree/master/Images/prediction2020.png)
 
 
+##
+## Today_oil_price
 
-
+Is a function to get the real time data of the price of the crude oil WTI and the prices of the stock from the last month.
